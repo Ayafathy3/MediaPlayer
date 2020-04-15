@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/azk">
+
+    <TextView
+        android:id="@+id/azkary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:text="أذكاري"
+        android:textColor="#9b4b4b"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/azkar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="6dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/azkary"
+        android:text="أذكار المسلم"
+        android:textColor="#9b4b4b"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/azkar2"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_below="@+id/azkary"
+        android:text="أذكار الصباح"
+        android:textColor="#9b4b4b"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/azkar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:layout_below="@+id/azkar2"
+        android:text="أذكار المساء"
+        android:textColor="#9b4b4b"
+        android:textSize="50sp" />
+    <TextView
+        android:layout_below="@+id/azkar3"
+        android:id="@+id/azkar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:text="أذكار النوم"
+        android:textColor="#9b4b4b"
+        android:textSize="50sp" />
+
+</RelativeLayout>
+
